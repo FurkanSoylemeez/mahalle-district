@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://crtfb4k2bm776"]
+
+[ext_resource type="Texture2D" uid="uid://bs5uif013hyya" path="res://art/map/HorizontalRoad.png" id="1_1oml7"]
+[ext_resource type="Texture2D" uid="uid://c8ijwwrvmh2lc" path="res://art/map/DikRoad.png" id="2_6eebf"]
+
+[node name="World" type="Node2D" unique_id=943715911]
+texture_filter = 1
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1617633111]
+zoom = Vector2(3.5, 3.5)
+
+[node name="HorizontalRoad" type="Sprite2D" parent="." unique_id=1252209807]
+position = Vector2(0, 22.999977)
+scale = Vector2(1, 1.5)
+texture = ExtResource("1_1oml7")
+
+[node name="HorizontalRoad2" type="Sprite2D" parent="." unique_id=556452142]
+position = Vector2(1931, 23)
+scale = Vector2(1, 1.5)
+texture = ExtResource("1_1oml7")
+
+[node name="HorizontalRoad3" type="Sprite2D" parent="." unique_id=1166227626]
+position = Vector2(3868, 23)
+scale = Vector2(1, 1.5)
+texture = ExtResource("1_1oml7")
+
+[node name="HorizontalRoad4" type="Sprite2D" parent="." unique_id=1602483796]
+position = Vector2(9638, 26)
+scale = Vector2(1, 1.5)
+texture = ExtResource("1_1oml7")
+
+[node name="HorizontalRoad5" type="Sprite2D" parent="." unique_id=7120895]
+position = Vector2(7714, 25)
+scale = Vector2(1, 1.5)
+texture = ExtResource("1_1oml7")
+
+[node name="HorizontalRoad6" type="Sprite2D" parent="." unique_id=1509906560]
+position = Vector2(5794, 23)
+scale = Vector2(1, 1.5)
+texture = ExtResource("1_1oml7")
+
+[node name="DikRoad" type="Sprite2D" parent="." unique_id=2028474880]
+position = Vector2(-1451.0001, 1628.0001)
+scale = Vector2(1.6918945, 1.3854166)
+texture = ExtResource("2_6eebf")
